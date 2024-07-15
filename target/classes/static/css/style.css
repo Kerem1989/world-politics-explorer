@@ -244,81 +244,47 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
-/*.single-about-txt*/
-.single-about-txt h3 {
-    font-size:18px;
-    color: #3c4258;
-    text-transform: initial;
-    line-height: 1.8;
-}
-.single-about-txt p {
-    font-size: 16px;
-    color: #999fb3;
-    padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
-}
-.single-about-add-info {
-    margin: 35px 0;
-}
-.single-about-add-info h3 {
-    color: #636a82;
-    font-size: 16px;
-    text-transform: capitalize;
-}
-.single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
-/*.single-about-txt*/
-
-/*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
-.single-about-img:before {
-    position:  absolute;
-    content: " ";
-    top: 0;
-    left:  0;
-    width: 109%;
-    height:  100%;
-    background: rgba(31,44,108,.3);
-}
-.single-about-img img {
-    max-width: 500px;
-    height: 468px;
-}
-.about-list-icon{
+.about {
+    padding: 50px 0 100px;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 109%;
-    height: 90px;
-    background: #1f2c6c;
 }
-/*.ab-list-icon */
-.about-list-icon ul {
+.about-content {
     display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.about-list-icon  ul li a {
-    padding-right: 22px;
-    cursor:pointer;
-    color: #fff;
+.about-text {
+    flex: 1;
+    padding-right: 20px;
 }
-.about-list-icon ul li a {
-    cursor: pointer;
-    color: #fff;
-    display: inline-block;
-    border: 2px solid;
-    margin-left: 20px;
-    border-radius: 8px;
-    width: 30px;
-    height: 30px;
-    line-height: 28px;
-    text-align: center;
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3c4258;
 }
-.about-list-icon ul li a i {
-    margin-left: 6px;
+.about-text p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /*.ab-list-icon */
 
