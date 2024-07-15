@@ -7,17 +7,17 @@ var simplemaps_worldmap_mapdata={
     popups: "detect",
     
 		//State defaults
-		state_description: "State description",
+    state_description: "State description",
+    state_description2: "State description",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
-    state_url: "https://simplemaps.com",
     border_size: 1.5,
     border_color: "#ffffff",
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
 		//Location defaults
-		location_description: "Location description",
+    location_description: "Location description",
     location_color: "#FF0067",
     location_opacity: 0.8,
     location_hover_opacity: 1,
@@ -38,7 +38,7 @@ var simplemaps_worldmap_mapdata={
     hide_labels: "no",
    
 		//Zoom settings
-		manual_zoom: "yes",
+    manual_zoom: "yes",
     back_image: "no",
     arrow_box: "no",
     navigation_size: "40",
@@ -54,7 +54,7 @@ var simplemaps_worldmap_mapdata={
     zoom_time: 0.5,
     
 		//Popup settings
-		popup_color: "white",
+    popup_color: "white",
     popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
@@ -62,7 +62,7 @@ var simplemaps_worldmap_mapdata={
     popup_nocss: "no",
     
 		//Advanced settings
-		div: "map",
+    div: "map",
     auto_load: "yes",
     rotate: "0",
     url_new_tab: "yes",
@@ -1048,10 +1048,9 @@ var simplemaps_worldmap_mapdata={
     },
     SE: {
       name: "Sweden",
-      description: "default",
-      color: "default",
+      description: "Ideology: Liberal conservatism" + " / " + "Ruling Party: Moderate Party",
+      color: "#0000FF",
       hover_color: "default",
-      url: "default"
     },
     SZ: {
       name: "Swaziland",
@@ -1570,33 +1569,6 @@ var simplemaps_worldmap_mapdata={
       color: "default",
       hover_color: "default",
       url: "default"
-    }
-  },
-  locations: {
-    "0": {
-      name: "Paris",
-      lat: "48.866666670",
-      lng: "2.333333333",
-      color: "default",
-      description: "default",
-      url: "default"
-    },
-    "1": {
-      name: "Tokyo",
-      lat: "35.666666670",
-      lng: "139.750000000",
-      color: "default",
-      description: "default",
-      url: "default"
-    },
-    "3": {
-      name: "New York",
-      lat: "40.71",
-      lng: "-74.0059731",
-      description: "default",
-      color: "default",
-      url: "default",
-      size: "default"
     }
   },
   labels: {}

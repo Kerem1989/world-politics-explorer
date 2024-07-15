@@ -245,92 +245,180 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         4.  About
 --------------------------------------*/
 .about {
-    padding: 50px 0 100px;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 50px 20px; /* Padding runt hela sektionen */
+    background: #f9fbfd; /* Bakgrundsfärg som matchar din design */
+    border: none; /* Ingen kant på sektionen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    margin-bottom: 20px; /* Avstånd till nästa sektion */
 }
+
 .about-content {
-    display: flex;
-    align-items: flex-start;
+    display: flex; /* Flexbox för horisontell layout */
+    align-items: center; /* Vertikal centrering */
     max-width: 1200px;
     width: 100%;
-    background-color: #fff;
+    margin: 0 auto; /* Centrera innehållet */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Vit bakgrund för innehållet */
+    border: none; /* Ingen kant på innehållet */
+    box-shadow: none; /* Ingen extra skugga */
 }
+
 .about-text {
-    flex: 1;
+    flex: 2; /* Ge mer utrymme till textdelen */
     padding-right: 20px;
+    max-width: 70%; /* Justera max-bredd för texten */
+    box-sizing: border-box; /* Inkludera padding i totalbredden */
 }
+
 .about-text h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #3c4258;
+    color: #3c4258; /* Matcha färg med rubriker */
 }
+
 .about-text p {
     font-size: 1em;
-    color: #555;
+    color: #999fb3; /* Matcha färg med text */
     margin-bottom: 20px;
+    max-width: 100%; /* Se till att texten inte blir för smal */
 }
+
 .about-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 3; /* Bilden tar upp mindre utrymme jämfört med texten */
+    display: flex; /* Flexbox för att centrera bilden */
+    justify-content: center; /* Horisontell centrering av bild */
+    align-items: center; /* Vertikal centrering av bild */
+    box-sizing: border-box; /* Inkludera padding och kant i totalstorlek */
 }
+
 .about-image img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Bilden fyller maximalt tillgängligt utrymme */
+    border: none; /* Ingen kant på bilden */
+    background: transparent; /* Ingen bakgrundsfärg */
+    box-sizing: border-box; /* Inkludera padding och kant i totalstorlek */
 }
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Ändra till vertikal layout på mindre skärmar */
+        align-items: flex-start;
+    }
+
+    .about-text {
+        padding-right: 0; /* Ta bort padding när texten är ovanför bilden */
+        margin-bottom: 20px; /* Lägg till utrymme under texten */
+        max-width: 100%; /* Se till att texten fyller hela tillgängliga utrymmet */
+    }
+
+    .about-image {
+        width: 100%; /* Bilden tar upp hela bredden på skärmen */
+        margin-top: 20px; /* Lägg till utrymme ovanför bilden */
+    }
+}
+
+
+
 /*.ab-list-icon */
 
 /*.single-about-img */
 
 /*-------------------------------------
-        5.  Education
+        5.  Map
 --------------------------------------*/
-
-.education {
-    background:  #f9fbfd;
-    padding-top:  50px;
+/* Sektionens grundläggande stil */
+/* Sektionens grundläggande stil */
+.maps {
+    padding: 60px 20px; /* Justera padding för mer utrymme runt sektionen */
+    background: #f9fbfd; /* Bakgrundsfärg för sektionen */
+    margin: 40px 0; /* Avstånd ovanför och under sektionen */
 }
-.education-horizontal-timeline {
-    padding: 80px 0;
+
+/* Flexbox layout för innehåll i sektionen */
+.map-content {
+    display: flex; /* Flexbox layout */
+    flex-direction: row; /* Placera elementen i en rad */
+    align-items: flex-start; /* Justera innehållet till toppen */
+    max-width: 1200px; /* Maximalt bredd på innehåll */
+    margin: 0 auto; /* Centrera innehållet */
+    gap: 20px; /* Avstånd mellan karta och info/legend */
 }
 
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
-
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
-
-/*.timeline-horizontal-border*/
-.timeline-horizontal-border {
-    display:  flex;
-    align-items: center;
-    padding: 26px 0 30px;
+/* Stilar för kartan */
+.map-figure {
+    flex: 2; /* Flexibelt utrymme för karta, större än texten och legend */
+    display: flex;
+    justify-content: center; /* Horisontell centrering av karta */
+    align-items: center; /* Vertikal centrering av karta */
 }
-.timeline-horizontal-border i {
-    font-size:  10px;
-    color: #d92cf9;
-    margin-right:  5px;
-}
-span.single-timeline-horizontal {
-    display:  inline-block;
-    background: #b2c1ce;
-    height:  1px;
-    width: 380px;
-}
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
-/*.timeline-horizontal-border*/
 
-/*.education-horizontal-timeline*/
+.map-figure #map {
+    max-width: 100%; /* Bilden fyller maximalt utrymme */
+    height: auto; /* Bevara proportioner */
+    border-radius: 10px; /* Rundade hörn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    max-height: 600px; /* Begränsa bildens höjd för att förhindra att den blir för stor */
+}
+
+/* Stilar för text och legend på högra sidan */
+.map-info {
+    flex: 1; /* Flexibelt utrymme för text och legend, mindre än kartan */
+    display: flex;
+    flex-direction: column; /* Placera text och legend vertikalt */
+    gap: 20px; /* Avstånd mellan text och legend */
+}
+
+/* Stilar för texten */
+.map-text {
+    padding-right: 20px; /* Padding mellan text och legend */
+}
+
+.map-text h2 {
+    font-size: 2em; /* Minska storlek på rubrik */
+    margin-bottom: 15px; /* Avstånd under rubrik */
+    color: #3c4258; /* Färg på rubrik */
+}
+
+.map-text p {
+    font-size: 0.9em; /* Minska storlek på text */
+    color: #999fb3; /* Färg på text */
+    margin-bottom: 15px; /* Avstånd mellan stycken */
+}
+
+/* Stilar för legend-sektionen */
+.map-legend {
+    background: #fff; /* Vit bakgrund för legend */
+    border-radius: 10px; /* Rundade hörn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    padding: 15px; /* Padding runt legend */
+}
+
+.map-legend h3 {
+    font-size: 1.5em; /* Minska storlek på rubrik i legend */
+    margin-bottom: 15px; /* Avstånd under rubrik */
+    color: #3c4258; /* Färg på rubrik */
+}
+
+.legend-item {
+    display: flex; /* Flexbox layout för legend-items */
+    align-items: center; /* Vertikal centrering */
+    margin-bottom: 10px; /* Avstånd mellan legend-items */
+}
+
+.legend-color {
+    width: 30px; /* Bredd på färgbox */
+    height: 30px; /* Höjd på färgbox */
+    border-radius: 5px; /* Rundade hörn på färgbox */
+    margin-right: 10px; /* Avstånd mellan färgbox och text */
+}
+
+.legend-text {
+    font-size: 0.9em; /* Minska storlek på text */
+    color: #555; /* Färg på text */
+}
+
+
 
 /*-------------------------------------
         6.  Skills
