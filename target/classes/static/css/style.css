@@ -248,7 +248,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 50px 20px; /* Padding runt hela sektionen */
     background: #f9fbfd; /* Bakgrundsfärg som matchar din design */
     border: none; /* Ingen kant på sektionen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.09); /* Lätt skugga */
     margin-bottom: 20px; /* Avstånd till nästa sektion */
 }
 
@@ -318,21 +318,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     }
 }
 
-
-
-/*.ab-list-icon */
-
-/*.single-about-img */
-
 /*-------------------------------------
         5.  Map
 --------------------------------------*/
-/* Sektionens grundläggande stil */
-/* Sektionens grundläggande stil */
 .maps {
     padding: 60px 20px; /* Justera padding för mer utrymme runt sektionen */
     background: #f9fbfd; /* Bakgrundsfärg för sektionen */
     margin: 40px 0; /* Avstånd ovanför och under sektionen */
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.09); /* Lätt skugga */
+
 }
 
 /* Flexbox layout för innehåll i sektionen */

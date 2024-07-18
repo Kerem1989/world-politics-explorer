@@ -404,10 +404,9 @@ var simplemaps_worldmap_mapdata={
     },
     FI: {
       name: "Finland",
-      description: "default",
-      color: "default",
+      description: "Ideology: Conservatism / Ruling Party: National Coalition Party",
+      color: "#1900ff",
       hover_color: "default",
-      url: "default"
     },
     FJ: {
       name: "Fiji",
@@ -845,8 +844,8 @@ var simplemaps_worldmap_mapdata={
     },
     NO: {
       name: "Norway",
-      description: "default",
-      color: "default",
+      description: "Ideology: Social democracy / Ruling Party: Labour Party",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
@@ -1048,8 +1047,8 @@ var simplemaps_worldmap_mapdata={
     },
     SE: {
       name: "Sweden",
-      description: "Ideology: Liberal conservatism" + " / " + "Ruling Party: Moderate Party",
-      color: "#0000FF",
+      description: "Ideology: Conservatism" + " / " + "Ruling Party: Moderate Party",
+      color: "#1900ff",
       hover_color: "default",
     },
     SZ: {
