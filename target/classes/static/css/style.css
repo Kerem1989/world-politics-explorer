@@ -1,26 +1,13 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
 
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
 2.  Header
 3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
+4.  About
+5.  Map
+6.  Graphs
+7.  Timeline
+8.  Contact
 
 /*-------------------------------------
 		1.General css (Reset code)
@@ -95,7 +82,6 @@ html,body{
 }
 
 .fix{position: relative;clear: both;}
-/*=============Style css=========*/
 
 /*-------------------------------------
         2. Header
@@ -119,7 +105,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    color: #1900ff;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -139,7 +125,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #1900ff;}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
@@ -149,7 +135,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     margin-left: 15px;
 }
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #1900ff;}
 /*.nav li*/
 
 
@@ -163,7 +149,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #d92cf9;
+  background-color: #1900ff;
 }
 /*.menu-ui-design*/
 
@@ -173,11 +159,11 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    border: 1px solid #1900ff;
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 /*.navbar-toggle */
 
 
@@ -213,7 +199,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+.header-text h2 span {color: #1900ff;}
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -229,8 +215,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    background: #1900ff;
+    border:1px solid #1900ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -238,7 +224,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background: #1900ff;border: 1px solid #1900ff;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -415,13 +401,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 
 /*-------------------------------------
-        6.  Skills
+        6.  Graphs
 --------------------------------------*/
-.skills {
+.graph {
     
 }
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.graph-content{padding: 50px 0 80px;}
+.single-graph-content{padding-top: 100px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -434,7 +420,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-progress-txt h3 {
     width: 10%;
-    color: #a606c3;
+    color: #1900ff;
     position: relative;
     top: 6px;
     left: 20px;
@@ -454,7 +440,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #b636ff;
+   background: #1900ff;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -469,7 +455,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #b636ff;
+   color: #1900ff;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
@@ -483,8 +469,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
    margin-left: 0;
 }
 
+.graph-text p {
+    font-size: 0.9em; /* Minska storlek på text */
+    color: #999fb3; /* Färg på text */
+    margin-bottom: 15px; /* Avstånd mellan stycken */
+}
+
 /*-------------------------------------
-        7. Experience
+        7. Timeline
 -------------------------------------*/
 .experience {
     padding: 50px 0 100px;
@@ -528,7 +520,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 .timeline-content span>i, .experience-time span>i {
-    color: #d92cf9;
+    color: #1900ff;
     position: absolute;
     font-size: 10px;
     left: -14.5%;
@@ -564,177 +556,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 .experience-time-responsive{display: none;}
-/*-------------------------------------
-        8. Profiles
---------------------------------------*/
-.profiles {
-    padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
-}
-
-.profiles-content {padding-top: 100px;}
-.profiles-content .col-sm-3{padding:0;}
-.profile-txt {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.single-profile {
-    position: relative;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #b2c1ce;
-    overflow:hidden;
-    -webkit-transition:background 0.5s linear; 
-    -moz-transition:background 0.5s linear; 
-    -ms-transition:background 0.5s linear; 
-    -o-transition:background 0.5s linear; 
-    transition:background 0.5s linear;
-}
-.profile-icon-name {
-    text-transform: capitalize;
-    color: #636a82;
-    font-size: 16px;
-}
-.single-profile.profile-no-border{border-right:transparent;}
-.profile-border {
-    border-bottom: 1px solid #b2c1ce;
-}
-.single-profile-overlay{
-    display:flex;
-    align-items:center;
-    text-transform: capitalize;
-    justify-content:center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: " ";
-    width:100%;
-    height: 100%;
-    background: #d92cf9;
-    background: -moz-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
-    background: -webkit-linear-gradient(left, #d92cf9 0%,#b636ff 100%);
-    background: linear-gradient(to right, #d92cf9 0%,#b636ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d92cf9', endColorstr='#b636ff',GradientType=1 );
-    -webkit-transform:scale(0);
-    -moz-transform:scale(0);
-    -ms-transform:scale(0);
-    -o-transform:scale(0);
-    transform:scale(0);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-.single-profile:hover .single-profile-overlay{
-    -webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1);
-    -o-transform:scale(1);
-    transform:scale(1);
-    top:0;
-}
-.single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
-.single-profile:hover .profile-border {border:transparent;}
-/*-------------------------------------
-        9. Portfolio
---------------------------------------*/
-.portfolio {
-    padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
-}
-
-.portfolio-content {padding-top: 100px;}
-
-/* ---- .item ---- */
-.isotope:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-.isotope .item {
-    position:relative;
-    overflow:hidden;
-    margin-bottom: 30px;
-}
-/*.item img*/
-.isotope .item img{
-    width:100%;
-    height:100%;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-.isotope .item:hover  img{
-    -webkit-transform:scale(1.5);
-    -moz-transform:scale(1.5);
-    -ms-transform:scale(1.5);
-    -o-transform:scale(1.5);
-    transform:scale(1.5);
-}/*.item img*/
-
-/*.isotope-overlay*/
-.isotope-overlay{
-    position:absolute;
-    height:100%;
-    width:100%;
-    background:rgba(31,44,108,.5);
-    display:flex;
-    align-items:center;
-    text-transform: uppercase;
-    justify-content:center;
-    flex-direction:row;
-    -webkit-transform:scale(0);
-    -moz-transform:scale(0);
-    -ms-transform:scale(0);
-    -o-transform:scale(0);
-    transform:scale(0);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-.isotope-overlay a {
-    display: inline-block;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-}
-.isotope .item:hover .isotope-overlay{
-    -webkit-transform:scale(1);
-    -moz-transform:scale(1);
-    -ms-transform:scale(1);
-    -o-transform:scale(1);
-    transform:scale(1);
-    top:0;
-}/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. Clients
---------------------------------------*/
-.clients {padding-top: 50px;}
-.clients-area {
-    display: flex;
-    align-items: center;
-    height: 250px;
-}
-.clients-area .item {padding: 0 25px;}
-
-.clients .clients-area .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:0;
-}
-
-/*-------------------------------------
-        11. Contact
+        8. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
@@ -765,8 +589,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #1900ff;
+    border: 1px solid #1900ff;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -791,8 +615,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #1900ff;
+    border: 1px solid #1900ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
@@ -843,7 +667,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     transition: .3s;
 }
 .hm-foot-icon ul li>a:hover{
-    color: #b636ff;
+    color: #1900ff;
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
@@ -867,8 +691,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background: #1900ff;
+	border:1px solid #1900ff;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -879,8 +703,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #1900ff;
+	border:1px solid #1900ff;
 }
 
 #scroll-Top  .return-to-top i{
@@ -900,4 +724,3 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================

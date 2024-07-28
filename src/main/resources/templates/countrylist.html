@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.0/css/dataTables.dataTables.min.css">
+
+    <title>World Politics Explorer</title>
+
+    <link rel="shortcut icon" type="image/icon" href="/images/logo/favicon.png"/>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/flaticon.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootsnav.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/table.css">
+</head>
+<body>
+<header class="top-area">
+    <div class="header-area">
+        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">World Politics Explorer</a>
+                </div>
+
+                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="smooth-menu active"><a href="#home">Home</a></li>
+                        <li class="smooth-menu"><a href="#about">About</a></li>
+                        <li class="smooth-menu"><a href="#maps">Ideologies: A Visual Exploration</a></li>
+                        <li class="smooth-menu"><a href="#experience">Ideologies Timeline</a></li>
+                        <li class="smooth-menu"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="clearfix"></div>
+
+<!-- Table section -->
+<div class="table-container" role="region" aria-labelledby="caption" tabindex="0">
+    <table id="myTable" class="display">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th>Ruling Party</th>
+            <th>Ideology</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Country 1</td>
+            <td>Capital 1</td>
+            <td>10,000,000</td>
+            <td>Party 1</td>
+            <td>Ideology 1</td>
+        </tr>
+        <tr>
+            <td>Country 2</td>
+            <td>Capital 2</td>
+            <td>20,000,000</td>
+            <td>Party 2</td>
+            <td>Ideology 2</td>
+        </tr>
+        <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootsnav.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.0/js/dataTables.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#myTable').DataTable();
+    });
+</script>
+</body>
+</html>
