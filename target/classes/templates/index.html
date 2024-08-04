@@ -33,16 +33,19 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">World Politics Explorer</a>
+                    <a class="navbar-brand">World Politics Explorer</a>
                 </div>
 
                 <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class=" smooth-menu active"></li>
                         <li class=" smooth-menu"><a href="#about">About</a></li>
-                        <li class="smooth-menu"><a href="#maps">Ideologies: A Visual Exploration</a></li>
-                        <li class="smooth-menu"><a href="#experience">Ideologies Timeline</a></li>
+                        <li class="smooth-menu"><a href="#maps">A Visual Exploration</a></li>
+                        <li class="smooth-menu"><a href="#experience">Timeline</a></li>
+                        <li class="smooth-menu"><a href="#information">Ideologies</a></li>
                         <li class="smooth-menu"><a href="#contact">Contact</a></li>
+                        <li class="smooth-menu"><a href="#contact">API</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -101,162 +104,83 @@
         <div class="map-info">
             <div class="map-text">
                 <h2>Ideologies: A Visual Exploration</h2>
-                <p>This map visualizes the key ideas and ideologies that shape our world today</p>
-                <div class="legend-item">
-                    <div class="legend-color" style="background-color: #009dff;"></div> <!-- Blå färg som exempel -->
-                    <div class="legend-text">Liberalism</div>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background-color: #1900ff;"></div> <!-- Blå färg som exempel -->
-                    <div class="legend-text">Conservatism</div>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background-color: #ff2600;"></div> <!-- Blå färg som exempel -->
-                    <div class="legend-text">Social democracy</div>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background-color: #ff0000;"></div> <!-- Blå färg som exempel -->
-                    <div class="legend-text">Marxism–Leninism</div>
+                <p>This map visualizes the key ideas and ideologies that shape our world today.</p>
+            </div>
+            <div class="map-legend">
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #009dff;"></div>
+                        <div class="legend-text">Liberalism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #1900ff;"></div>
+                        <div class="legend-text">Conservatism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ff2600;"></div>
+                        <div class="legend-text">Socialism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ff0000;"></div>
+                        <div class="legend-text">Nationalism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ff6600;"></div>
+                        <div class="legend-text">Marxism–Leninism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ffcc00;"></div>
+                        <div class="legend-text">Social Democracy</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ccff00;"></div>
+                        <div class="legend-text">Military Junta</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #66ff66;"></div>
+                        <div class="legend-text">Democratic Socialism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #00ffcc;"></div>
+                        <div class="legend-text">Progressivism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #00ccff;"></div>
+                        <div class="legend-text">Islamism</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #808080;"></div>
+                        <div class="legend-text">Big Tent</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ffccff;"></div>
+                        <div class="legend-text">Monarchy</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #d3d3d3;"></div>
+                        <div class="legend-text">Other</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="graph-content">
-        <div class="graph-text">
-            <p>
-                They shape cultures, influence societies, and form the foundation of nations. This site explores and
-                reveals the prevailing ideas and ideologies that govern our world today. Our goal is to present a clear
-                picture of these ruling ideologies through dynamic graphs and interactive maps. These insights are the
-                result of careful analysis by the site creator, supported by reliable sources. This platform is more
-                than a collection of data; it is a gateway to understanding the complex web of ideas driving political,
-                social, and economic systems globally. Dive in, explore, and immerse yourself in the world of
-                ideologies.
-            </p>
-        </div>
-        <div class="graph-figure">
-            <div id="chart"></div>
-            <div class="graph-text">
-                <p>
-                    They shape cultures, influence societies, and form the foundation of nations. This site explores and
-                    reveals the prevailing ideas and ideologies that govern our world today. Our goal is to present a
-                    clear picture of these ruling ideologies through dynamic graphs and interactive maps. These insights
-                    are the result of careful analysis by the site creator, supported by reliable sources. This platform
-                    is more than a collection of data; it is a gateway to understanding the complex web of ideas driving
-                    political, social, and economic systems globally. Dive in, explore, and immerse yourself in the
-                    world of ideologies.
-                </p>
+    <div class="chart-section graph-content">
+        <div class="container">
+            <div class="chart-content">
+                <div class="chart-text">
+                    <h4 class="section-heading">Ideologies in numbers</h4>
+                    <p class="graph-text">
+                        The chart below illustrates the prevalence of various ideologies worldwide. It visually represents the total number of political, social, and economic ideologies that influence countries and societies. This diagram provides a clear and insightful view of their distribution, helping you understand the impact these ideologies have on the world today.
+                    </p>
+                </div>
+                <div class="chart-figure">
+                    <div id="chart" class="chart-frame"></div>
+                </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="single-graph-content">
-                            <div class="barWrapper">
-                                <span class="progressText">adobe photoshop</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>90%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText">adobe illustrator</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>85%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText">adobe after effects</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="97"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>97%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText">sketch</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>90%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="single-graph-content">
-                            <div class="barWrapper">
-                                <span class="progressText">html 5</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>90%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText">css 3 animation</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>85%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText">communication</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="97"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>97%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                            <div class="barWrapper">
-                                <span class="progressText"> creativity</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress ">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                             aria-valuemin="10" aria-valuemax="100" style="">
-
-                                        </div>
-                                    </div>
-                                    <h3>90%</h3>
-                                </div>
-                            </div><!-- /.barWrapper -->
-                        </div>
-                    </div>
-                </div><!-- /.row -->
-            </div>    <!-- /.container -->
-        </div><!-- /.skill-content-->
+        </div>
     </div>
 </section>
+
 
 <!--experience start -->
 <section id="experience" class="experience">
@@ -272,8 +196,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="experience-time text-right">
-                                        <h2>2018 - Present</h2>
-                                        <h3>creative director</h3>
+                                        <h2>circa 1910s</h2>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                                 <div class="col-md-offset-1 col-md-5">
@@ -281,14 +204,123 @@
                                         <div class="timeline-content">
                                             <h4 class="title">
                                                 <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                hoplony tech limited
+                                                Progressivism
                                             </h4>
-                                            <h5>newyork, USA</h5>
+                                            <h5>Theodore Roosevelt, Woodrow Wilson</h5>
                                             <p class="description">
-                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                                dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat
-                                                non proident.
-                                            </p>
+                                                Progressivism, emerging in the late 19th century, advocates for social reform, industry regulation, and increased government intervention to address inequalities from industrialization.                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+                    <li>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                            circa 1870s
+                                        </h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text-right">
+                                            <h4 class="title">
+                                                Islamism
+                                            </h4>
+                                            <h5>Hassan al-Banna, Sayyid Qutb</h5>
+                                            <p class="description">
+                                                Islamism seeks to implement Islamic laws and principles in government, emerging as a response to Western colonialism and the decline of Islamic empires.                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                            circa 1810s
+                                        </h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>circa 1917</h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                Democratic Socialism
+                                            </h4>
+                                            <h5>Michael Harrington, Bernie Sanders</h5>
+                                            <p class="description">
+                                                Democratic Socialism promotes socialism through democratic means, supporting a strong welfare state, public ownership of key industries, and democratic institutions.                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-offset-1 col-md-5 experience-time-responsive">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                            2016 - 2018
+                                        </h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content text-right">
+                                            <h4 class="title">
+                                                Social Democracy
+                                            </h4>
+                                            <h5>Eduard Bernstein, August Bebel</h5>
+                                            <p class="description">
+                                                Social Democracy advocates for reforms within capitalism, supporting a mixed economy, social welfare, and democratic governance.                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5 experience-time-main">
+                                    <div class="experience-time">
+                                        <h2>
+                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                            circa 1890s
+                                        </h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>circa 1917</h2>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                Marxism–Leninism
+                                            </h4>
+                                            <h5>Karl Marx, Friedrich Engels, Vladimir Lenin</h5>
+                                            <p class="description">
+                                                Marxism-Leninism adapts Marxist theory to early 20th-century Russia, emphasizing vanguard parties and the dictatorship of the proletariat, shaping Soviet and other communist state policies.                                            </p>
                                         </div><!--/.timeline-content-->
                                     </div><!--/.timeline-->
                                 </div><!--/.col-->
@@ -305,21 +337,18 @@
                                             <span><i class="fa fa-circle" aria-hidden="true"></i></span>
                                             2016 - 2018
                                         </h2>
-                                        <h3>associate design director</h3>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                                 <div class="col-md-5">
                                     <div class="timeline">
                                         <div class="timeline-content text-right">
                                             <h4 class="title">
-                                                hoplony tech limited
+                                                Nationalism
                                             </h4>
-                                            <h5>newyork, USA</h5>
+                                            <h5>Johann Gottfried Herder, Giuseppe Mazzini</h5>
                                             <p class="description">
-                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                                dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat
-                                                non proident.
-                                            </p>
+
+                                                Nationalism emerged with European nation-states, emphasizing national interests and culture, especially during the 1848 revolutions and Italy and Germany's unification.                                            </p>
                                         </div><!--/.timeline-content-->
                                     </div><!--/.timeline-->
                                 </div><!--/.col-->
@@ -327,9 +356,8 @@
                                     <div class="experience-time">
                                         <h2>
                                             <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                            2016 - 2018
+                                            circa 1810s
                                         </h2>
-                                        <h3>associate design director</h3>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                             </div>
@@ -341,8 +369,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="experience-time text-right">
-                                        <h2>2013 - 2016</h2>
-                                        <h3>senior UI/UX designer</h3>
+                                        <h2>circa 1820</h2>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                                 <div class="col-md-offset-1 col-md-5">
@@ -350,13 +377,11 @@
                                         <div class="timeline-content">
                                             <h4 class="title">
                                                 <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                hoplony tech limited
+                                                Communism
                                             </h4>
-                                            <h5>newyork, USA</h5>
+                                            <h5>Karl Marx, Friedrich Engels, Robert Owen</h5>
                                             <p class="description">
-                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                                dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat
-                                                non proident.
+                                                Communism arose in response to Industrial Revolution inequalities, advocating for collective or state control of production and distribution to address economic disparities.
                                             </p>
                                         </div><!--/.timeline-content-->
                                     </div><!--/.timeline-->
@@ -381,14 +406,11 @@
                                     <div class="timeline">
                                         <div class="timeline-content text-right">
                                             <h4 class="title">
-                                                hoplony tech limited
+                                                Conservatism
                                             </h4>
-                                            <h5>newyork, USA</h5>
+                                            <h5>Edmund Burke</h5>
                                             <p class="description">
-                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                                dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat
-                                                non proident.
-                                            </p>
+                                                Conservatism, a reaction to the French Revolution, emphasizes preserving traditional institutions and values. Edmund Burke's "Reflections on the Revolution in France" (1790) is foundational.                                            </p>
                                         </div><!--/.timeline-content-->
                                     </div><!--/.timeline-->
                                 </div><!--/.col-->
@@ -396,9 +418,8 @@
                                     <div class="experience-time">
                                         <h2>
                                             <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                            2012 - 2013
+                                            circa 1790s
                                         </h2>
-                                        <h3>UI/UX designer</h3>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                             </div>
@@ -410,8 +431,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="experience-time text-right">
-                                        <h2>2010 - 2012</h2>
-                                        <h3>frontend developer</h3>
+                                        <h2>circa 1680s</h2>
                                     </div><!--/.experience-time-->
                                 </div><!--/.col-->
                                 <div class="col-md-offset-1 col-md-5">
@@ -419,14 +439,11 @@
                                         <div class="timeline-content">
                                             <h4 class="title">
                                                 <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                hoplony tech limited
+                                                Liberalism
                                             </h4>
-                                            <h5>newyork, USA</h5>
+                                            <h5>John Locke, Adam Smith, Voltaire</h5>
                                             <p class="description">
-                                                Duis aute irure dolor in reprehenderit in vol patate velit esse cillum
-                                                dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat
-                                                non proident.
-                                            </p>
+                                                Liberalism emerged during the Enlightenment, advocating for individual freedoms, democracy, and free-market capitalism, in response to absolute monarchy and feudalism.                                            </p>
                                         </div><!--/.timeline-content-->
                                     </div><!--/.timeline-->
                                 </div><!--/.col-->
@@ -441,6 +458,192 @@
 
 </section><!--/.experience-->
 <!--experience end -->
+
+<!--information start -->
+<!--information start -->
+<section id="information" class="information">
+    <div class="section-heading text-center">
+        <h2>Ideologies: Explanation</h2>
+    </div>
+    <div class="container">
+        <div class="information-content">
+            <div class="row">
+                <!-- Liberalism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/independent.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Liberalism</h3>
+                            <p>
+                                A theory in economics emphasizing individual freedom from restraint and usually based on free competition, the self-regulating market, and the gold standard.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conservatism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/family.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Conservatism</h3>
+                            <p>
+                                A political philosophy based on tradition and social stability, stressing established institutions, and preferring gradual development to abrupt change.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Socialism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/protest.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Socialism</h3>
+                            <p>
+                                A political theory or movement advocating collective or governmental ownership and administration of the means of production and distribution of goods.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Military Junta -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/nation.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Nationalism</h3>
+                            <p>
+                                A sense of national consciousness exalting one nation above all others and placing primary emphasis on promotion of its culture and interests as opposed to those of other nations or supranational groups.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Democratic Socialism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/hammer.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Marxism–Leninism</h3>
+                            <p>
+                                Democratic socialism advocates for political democracy alongside social ownership of the means of production, with a focus on achieving socialism through democratic means.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Democracy -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/democracy.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Social Democracy</h3>
+                            <p>
+                                Social democracy is a political, social, and economic philosophy that supports economic and social interventions to promote social justice within a capitalist economy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Big Tent -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/soldier.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Military junta</h3>
+                            <p>
+                                A group of persons controlling a government especially after a revolutionary seizure of power.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Economic Liberalism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/social-care.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Democratic Socialism</h3>
+                            <p>
+                                A political movement advocating a gradual and peaceful transition from capitalism to socialism by democratic means.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Neo-Liberalism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/progress.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Progressivism</h3>
+                            <p>
+                                One believing in moderate political change and especially social improvement by governmental action.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pan-Africanism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/moon.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Islamism</h3>
+                            <p>
+                                It refers to a broad set of religious and political ideological movements. It refers to the interpretation of Islam within the context of the state.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Marxism-Leninism -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/camping.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Big tent</h3>
+                            <p>
+                                A widely inclusive composition or character that allows people of differing backgrounds, opinions, and interests to be members of a group or organization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Monarchy -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-information-box">
+                        <div class="information-icon">
+                            <img src="/images/logo/monarchy.png" alt="Icon" style="width: 52px; height: 52px;">
+                        </div>
+                        <div class="information-text">
+                            <h3>Monarchy</h3>
+                            <p>
+                                Monarchy is a form of government where a single individual, the monarch, holds sovereignty, often hereditary, over a state or territory.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--information end -->
+
+<!--information end -->
 
 <!--contact start -->
 <section id="contact" class="contact">
@@ -457,30 +660,30 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Name*"
-                                                   name="name">
+                                            <label for="name"></label><input type="text" class="form-control" id="name" placeholder="Name*"
+                                                                             name="name">
                                         </div><!--/.form-group-->
                                     </div><!--/.col-->
                                     <div class="col-sm-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="email" placeholder="Email*"
-                                                   name="email">
+                                            <label for="email"></label><input type="email" class="form-control" id="email" placeholder="Email*"
+                                                                              name="email">
                                         </div><!--/.form-group-->
                                     </div><!--/.col-->
                                 </div><!--/.row-->
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                                   name="subject">
+                                            <label for="subject"></label><input type="text" class="form-control" id="subject" placeholder="Subject"
+                                                                                name="subject">
                                         </div><!--/.form-group-->
                                     </div><!--/.col-->
                                 </div><!--/.row-->
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <textarea class="form-control" rows="8" id="comment"
-                                                      placeholder="Message"></textarea>
+                                            <label for="comment"></label><textarea class="form-control" rows="8" id="comment"
+                                                                                   placeholder="Message"></textarea>
                                         </div><!--/.form-group-->
                                     </div><!--/.col-->
                                 </div><!--/.row-->

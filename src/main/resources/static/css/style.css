@@ -1,4 +1,3 @@
-
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
 2.  Header
@@ -18,67 +17,67 @@
 }
 
 *{
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-o-box-sizing:border-box;
-	-ms-box-sizing:border-box;
-	box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
 }
 body{
-	font-family: 'Poppins', sans-serif;
-	font-size:16px;
-	color: #676a81;
-	background: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    color: #676a81;
+    background: #fff;
     max-width:1920px;
     margin:0 auto;
-	overflow-x:hidden;
+    overflow-x:hidden;
 }
 
 a,a:hover,a:active,a:focus {
-	display:inline-block;
-	text-decoration:none;
-	color: #6a708e;
-	font-size:16px;
-	padding:0;
+    display:inline-block;
+    text-decoration:none;
+    color: #6a708e;
+    font-size:16px;
+    padding:0;
 }
-h1,h2,h3,h4,h5,h6 { 
-	margin: 0;
-	color:#43485c;
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    color:#43485c;
     font-size: 16px;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
 }
 p {
-	margin: 0;
-	line-height:1.8;
-	color:#43485c;
-	font-size:14px;
-	font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height:1.8;
+    color:#43485c;
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
-	padding: 0;
+    padding: 0;
     margin: 0 auto;
     list-style: none;
 }
 ul li {
-	list-style: none;
-	
+    list-style: none;
+
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;}
 
 html,body{
     height: 100%;
-	position: relative;
+    position: relative;
 }
 [placeholder]:focus::-webkit-input-placeholder {
-  -webkit-transition: opacity 0.3s 0.3s ease; 
-  -moz-transition: opacity 0.3s 0.3s ease; 
-  -ms-transition: opacity 0.3s 0.3s ease; 
-  -o-transition: opacity 0.3s 0.3s ease; 
-  transition: opacity 0.3s 0.3s ease; 
-  opacity: 0;
+    -webkit-transition: opacity 0.3s 0.3s ease;
+    -moz-transition: opacity 0.3s 0.3s ease;
+    -ms-transition: opacity 0.3s 0.3s ease;
+    -o-transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s 0.3s ease;
+    opacity: 0;
 }
 
 .fix{position: relative;clear: both;}
@@ -89,6 +88,7 @@ html,body{
 .top-area {
     position: relative;
     z-index: 9999;
+    border-bottom: 1px solid #ddd; /* Add thin line to separate section */
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
@@ -118,10 +118,10 @@ nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
     text-transform:uppercase;
-    -webkit-transition: 0.3s linear; 
-    -moz-transition: 0.3s linear; 
-    -ms-transition: 0.3s linear; 
-    -o-transition: 0.3s linear; 
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
@@ -149,7 +149,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #1900ff;
+    background-color: #1900ff;
 }
 /*.menu-ui-design*/
 
@@ -180,6 +180,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     background-size:cover;
     background-position: center;
     height:890px;
+    border-bottom: 1px solid #ddd; /* Add thin line to separate section */
 }
 .welcome-hero:before{
     position:absolute;
@@ -218,10 +219,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     background: #1900ff;
     border:1px solid #1900ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
-    -webkit-transition: 0.3s linear; 
-    -moz-transition: 0.3s linear; 
-    -ms-transition: 0.3s linear; 
-    -o-transition: 0.3s linear; 
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background: #1900ff;border: 1px solid #1900ff;}
@@ -234,8 +235,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     padding: 50px 20px; /* Padding runt hela sektionen */
     background: #f9fbfd; /* Bakgrundsfärg som matchar din design */
     border: none; /* Ingen kant på sektionen */
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.09); /* Lätt skugga */
     margin-bottom: 20px; /* Avstånd till nästa sektion */
+    border-bottom: 1px ridge#ddd; /* Lägg till tunn linje längst ner för att separera sektionen */
 }
 
 .about-content {
@@ -259,155 +260,197 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 }
 
 .about-text h2 {
-    font-size: 2.5em;
+    font-size: 2.5em; /* Större fontstorlek */
     margin-bottom: 20px;
-    color: #3c4258; /* Matcha färg med rubriker */
+    color: #000; /* Mörkare textfärg */
 }
 
 .about-text p {
-    font-size: 1em;
-    color: #999fb3; /* Matcha färg med text */
-    margin-bottom: 20px;
-    max-width: 100%; /* Se till att texten inte blir för smal */
+    font-size: 1.1em; /* Större fontstorlek */
+    line-height: 1.8; /* Justera radavstånd */
+    color: #666; /* Mjukare textfärg */
 }
 
-.about-image {
-    flex: 3; /* Bilden tar upp mindre utrymme jämfört med texten */
-    display: flex; /* Flexbox för att centrera bilden */
-    justify-content: center; /* Horisontell centrering av bild */
-    align-items: center; /* Vertikal centrering av bild */
-    box-sizing: border-box; /* Inkludera padding och kant i totalstorlek */
+.about-img {
+    flex: 1; /* Mindre utrymme till bilden */
+    text-align: right;
 }
 
-.about-image img {
-    max-width: 100%; /* Bilden fyller maximalt tillgängligt utrymme */
-    border: none; /* Ingen kant på bilden */
-    background: transparent; /* Ingen bakgrundsfärg */
-    box-sizing: border-box; /* Inkludera padding och kant i totalstorlek */
-}
-
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column; /* Ändra till vertikal layout på mindre skärmar */
-        align-items: flex-start;
-    }
-
-    .about-text {
-        padding-right: 0; /* Ta bort padding när texten är ovanför bilden */
-        margin-bottom: 20px; /* Lägg till utrymme under texten */
-        max-width: 100%; /* Se till att texten fyller hela tillgängliga utrymmet */
-    }
-
-    .about-image {
-        width: 100%; /* Bilden tar upp hela bredden på skärmen */
-        margin-top: 20px; /* Lägg till utrymme ovanför bilden */
-    }
+.about-img img {
+    max-width: 100%; /* Anpassa bilden efter utrymmet */
+    border-radius: 10px; /* Rundade hörn */
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1); /* Lätt skugga för bilden */
 }
 
 /*-------------------------------------
         5.  Map
 --------------------------------------*/
+/* Sektion som innehåller kartan och diagrammet */
 .maps {
-    padding: 60px 20px; /* Justera padding för mer utrymme runt sektionen */
-    background: #f9fbfd; /* Bakgrundsfärg för sektionen */
-    margin: 40px 0; /* Avstånd ovanför och under sektionen */
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.09); /* Lätt skugga */
-
+    padding: 60px 20px;
+    background: #fcfcfc; /* Mycket ljusgrå bakgrundsfärg */
+    margin: 40px 0;
 }
 
-/* Flexbox layout för innehåll i sektionen */
+/* Innehåll för kartsektionen */
 .map-content {
-    display: flex; /* Flexbox layout */
-    flex-direction: row; /* Placera elementen i en rad */
-    align-items: flex-start; /* Justera innehållet till toppen */
-    max-width: 1200px; /* Maximalt bredd på innehåll */
-    margin: 0 auto; /* Centrera innehållet */
-    gap: 20px; /* Avstånd mellan karta och info/legend */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Justera innehållet till samma höjd */
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
 }
 
-/* Stilar för kartan */
+/* Kartfigur */
 .map-figure {
-    flex: 2; /* Flexibelt utrymme för karta, större än texten och legend */
+    flex: 2;
     display: flex;
-    justify-content: center; /* Horisontell centrering av karta */
-    align-items: center; /* Vertikal centrering av karta */
+    justify-content: center;
+    align-items: center;
 }
 
+/* Kartans stil */
 .map-figure #map {
-    max-width: 100%; /* Bilden fyller maximalt utrymme */
-    height: auto; /* Bevara proportioner */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
-    max-height: 600px; /* Begränsa bildens höjd för att förhindra att den blir för stor */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: none; /* Ta bort skuggan */
+    object-fit: cover; /* Behåll proportioner av kartan */
+    max-height: 600px;
 }
 
-/* Stilar för text och legend på högra sidan */
+/* Information om kartan */
 .map-info {
-    flex: 1; /* Flexibelt utrymme för text och legend, mindre än kartan */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Placera text och legend vertikalt */
-    gap: 20px; /* Avstånd mellan text och legend */
+    flex-direction: column;
+    gap: 20px;
 }
 
-/* Stilar för texten */
+/* Text om kartan */
 .map-text {
-    padding-right: 20px; /* Padding mellan text och legend */
+    padding-right: 20px;
 }
 
 .map-text h2 {
-    font-size: 2em; /* Minska storlek på rubrik */
-    margin-bottom: 15px; /* Avstånd under rubrik */
-    color: #3c4258; /* Färg på rubrik */
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #3c4258;
 }
 
 .map-text p {
-    font-size: 0.9em; /* Minska storlek på text */
-    color: #999fb3; /* Färg på text */
-    margin-bottom: 15px; /* Avstånd mellan stycken */
+    font-size: 0.9em;
+    color: #000000;
+    margin-bottom: 15px;
 }
 
-/* Stilar för legend-sektionen */
+/* Legendstil */
 .map-legend {
-    background: #fff; /* Vit bakgrund för legend */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lätt skugga */
-    padding: 15px; /* Padding runt legend */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: none; /* Ta bort skuggan */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrera legenden vertikalt */
+    height: 100%; /* Ta upp hela höjden av map-info */
 }
 
-.map-legend h3 {
-    font-size: 1.5em; /* Minska storlek på rubrik i legend */
-    margin-bottom: 15px; /* Avstånd under rubrik */
-    color: #3c4258; /* Färg på rubrik */
+.legend {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 10px 20px; /* Justerat gap för mindre storlek */
 }
 
 .legend-item {
-    display: flex; /* Flexbox layout för legend-items */
-    align-items: center; /* Vertikal centrering */
-    margin-bottom: 10px; /* Avstånd mellan legend-items */
+    display: flex;
+    align-items: center;
+    border: none; /* Ta bort eventuell kantlinje */
+    box-shadow: none; /* Ta bort eventuell boxskugga */
 }
 
 .legend-color {
-    width: 30px; /* Bredd på färgbox */
-    height: 30px; /* Höjd på färgbox */
-    border-radius: 5px; /* Rundade hörn på färgbox */
-    margin-right: 10px; /* Avstånd mellan färgbox och text */
+    width: 15px; /* Minska bredden */
+    height: 15px; /* Minska höjden */
+    border-radius: 3px;
+    margin-right: 8px; /* Justera marginalen */
 }
 
 .legend-text {
-    font-size: 0.9em; /* Minska storlek på text */
-    color: #555; /* Färg på text */
+    font-size: 0.9em; /* Minska storleken på texten */
+    color: #333;
 }
 
+/* Anpassad stil för grafsektionen */
+.chart-section {
+    margin-top: 20px; /* Justera för att flytta upp sektionen närmare kartan utan att påverka andra sektioner för mycket */
+    margin-bottom: 40px; /* Behåll nedre marginalen för att skapa avstånd under sektionen */
+    padding: 50px 0 80px; /* Behåll padding för att säkerställa tillräckligt med utrymme inuti sektionen */
+    background: #f0f0f0; /* Mycket ljusgrå bakgrundsfärg som matchar kartsektionen */
+}
 
+/* Anpassad stil för grafsektionen */
+.chart-section {
+    margin-top: 20px; /* Justera för att flytta upp sektionen närmare kartan utan att påverka andra sektioner för mycket */
+    margin-bottom: 40px; /* Behåll nedre marginalen för att skapa avstånd under sektionen */
+    padding: 50px 0 80px; /* Behåll padding för att säkerställa tillräckligt med utrymme inuti sektionen */
+    background: #f0f0f0; /* Mycket ljusgrå bakgrundsfärg som matchar kartsektionen */
+}
+
+/* Textsektion i grafsektionen */
+.chart-text {
+    flex: 1; /* Flexibelt utrymme för texten */
+    padding-right: 20px; /* Padding till höger för att skapa utrymme mellan text och diagram */
+    margin-bottom: 20px; /* Avstånd mellan text och diagrammet */
+}
+
+.chart-text h4.section-heading {
+    font-size: 24px; /* Storlek på rubriken */
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px; /* Lägg till utrymme under rubriken för att skapa avstånd till texten */
+    border-bottom: none; /* Ta bort linjen under rubriken */
+}
+
+/* Justering för text i grafsektionen */
+.chart-text p.graph-text {
+    font-size: 0.9em; /* Textstorlek */
+    color: #000000; /* Textfärg */
+    margin-bottom: 15px; /* Avstånd mellan stycken */
+}
+
+/* Diagramsektion i grafsektionen */
+.chart-figure {
+    flex: 1; /* Flexibelt utrymme för diagrammet */
+    display: flex;
+    justify-content: center; /* Centrera diagrammet horisontellt */
+    align-items: center; /* Centrera diagrammet vertikalt */
+}
+
+/* Ram runt diagrammet */
+.chart-figure #chart {
+    width: 100%; /* Diagrammet fyller hela flex-boxen */
+    height: auto; /* Behåll proportioner */
+    border-radius: 10px; /* Rundade hörn på ramen */
+    padding: 20px; /* Padding för att ge utrymme mellan diagrammet och ramen */
+}
 
 /*-------------------------------------
         6.  Graphs
 --------------------------------------*/
 .graph {
-    
+
 }
-.graph-content{padding: 50px 0 80px;}
-.single-graph-content{padding-top: 100px;}
+
+.graph-content {
+    padding: 50px 0 80px;
+}
+
+.single-graph-content {
+    padding-top: 100px;
+}
+
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -415,9 +458,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
+
 .single-progress-txt {
     display: flex;
 }
+
 .single-progress-txt h3 {
     width: 10%;
     color: #1900ff;
@@ -425,54 +470,73 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     top: 6px;
     left: 20px;
 }
+
 .barWrapper {
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
 }
+
 .progress {
-    border-radius:3px;
+    border-radius: 3px;
     overflow: visible;
     background: #e6ecf3;
-    height:8px;
+    height: 8px;
     margin-top: 15px;
     width: 85%;
     margin-bottom: 37px;
 }
+
 .progress-bar {
-   background: #1900ff;
+    background: #1900ff;
     border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
+    -webkit-transition: width 1.5s ease-in-out;
+    -ms-transition: width 1.5s ease-in-out;
+    -moz-transition: width 1.5s ease-in-out;
+    -o-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
 }
-.tooltip{
-   position:relative;
-   float:right;
+
+.tooltip {
+    position: relative;
+    float: right;
 }
+
 .tooltip > .tooltip-inner {
-   background-color: transparent;
-   padding: 1px 5px;
-   color: #1900ff;
-   font-weight: 500;
-   font-size: 12px;
-   border-radius: 0;
+    background-color: transparent;
+    padding: 1px 5px;
+    color: #1900ff;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 0;
 }
+
 .popOver + .tooltip > .tooltip-arrow {
-   border-left: 6px solid transparent;
-   border-right: 6px solid transparent;
-   border-top: 6px solid #fff;
-   bottom: -1px;
-   transform: translateX(-50%);
-   margin-left: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    bottom: -1px;
+    transform: translateX(-50%);
+    margin-left: 0;
 }
 
 .graph-text p {
     font-size: 0.9em; /* Minska storlek på text */
-    color: #999fb3; /* Färg på text */
+    color: #000000; /* Färg på text */
     margin-bottom: 15px; /* Avstånd mellan stycken */
+}
+
+.centered-heading {
+    text-align: center;
+}
+
+.spaced-paragraph {
+    margin-top: 20px;
+}
+
+.chart-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*-------------------------------------
@@ -480,8 +544,28 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 -------------------------------------*/
 .experience {
     padding: 50px 0 100px;
-    border-top: 1px solid #e5ebf2;
+
+}/* Lägg till linje under rubrik */
+.experience .section-heading h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
 }
+
+/* Linje under rubrik har tagits bort */
+.experience .section-heading h2::after {
+    /* Inga linjeegenskaper behövs längre */
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0; /* Linjen är nu osynlig */
+    background: transparent; /* Linjen är nu osynlig */
+}
+
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
@@ -508,10 +592,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 .main-timeline:before{
     content: "";
     width: 2px;
-    height: 84%;
+    height: 93%;
     background: #b2c1ce;
     position: absolute;
-    top: 1.5%;
+    top: 0.5%;
     left: 45.8%;
     z-index: -1;
 }
@@ -558,11 +642,57 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 .experience-time-responsive{display: none;}
 
 /*-------------------------------------
-        8. Contact
+        8. Explanation
+-------------------------------------- */
+.information {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+    border-top: 1px solid #ddd;
+}
+
+#information .section-heading h2 {
+    border-bottom: none; /* Ta bort linjen bara i kontaktsektionen */
+}
+
+.single-information-box {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+
+.information-icon {
+    font-size: 50px;
+    color: #1900ff;
+    margin-bottom: 20px;
+}
+
+.information-text h3 {
+    font-size: 20px;
+    color: #43485c;
+    margin-bottom: 10px;
+}
+
+.information-text p {
+    font-size: 14px;
+    color: #636a82;
+}
+
+
+/*-------------------------------------
+        9. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
     padding: 50px 0 100px;
+    border-top: 1px solid #ddd; /* Add thin line to separate section */
+
+}
+#contact .section-heading h2 {
+    border-bottom: none; /* Ta bort linjen bara i kontaktsektionen */
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
@@ -572,7 +702,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 .contact-form .form-control {
     padding: 25px;
     font-size: 14px;
-    border: 1px solid #fff;
+    border: 1px solid #d1e0ff;
     border-radius: 0px;
     box-shadow: none;
     outline: 0!important;
@@ -592,8 +722,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     background: #1900ff;
     border: 1px solid #1900ff;
     cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+     -webkit-transition: .5s;
     -moz-transition:.5s; 
     -ms-transition:.5s; 
     -o-transition:.5s;
@@ -604,7 +734,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
+    color: #a0aabb;
     border-radius: 0px;
     font-size:14px;
     -webkit-transition: .5s; 
