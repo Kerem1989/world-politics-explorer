@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WPE API</title>
+    <link rel="shortcut icon" type="image/icon" href="/images/logo/favicon.png"/>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #e0e0e0;
+        }
+        @media (max-width: 768px) {
+            nav {
+                display: block;
+            }
+            nav ul {
+                display: block;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+        .container {
+            padding: 20px;
+        }
+        .api-container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #ffffff;
+            width: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+        }
+        .api-container h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .api-container p {
+            font-size: 16px;
+            color: #666;
+            margin: 0;
+        }
+        .api-box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px 15px;
+            margin: 15px 0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .api-box h5 {
+            margin: 0 0 0 10px;
+            font-size: 16px;
+        }
+        .api-box p {
+            margin: 0;
+            color: #555;
+            margin-left: auto;
+        }
+        .badge-get {
+            background-color: #007bff;
+            color: white;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <a href="#" class="logo">World Politics Explorer API Doc</a>
+    <nav>
+        <ul>
+            <li><a href="/home">Return to main site</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="api-container">
+        <h1 class="text-left">Explore API v1.0</h1>
+        <p class="text-left">The World Politics Explorer API v1 is organized around REST. It provides access to all the data available through the platform in a coherent, hierarchical way. Only the HTTP GET method is supported. All API endpoints return JSON.</p>
+    </div>
+
+    <div class="api-box">
+        <span class="badge-get">GET</span>
+        <h5>/api/countries</h5>
+        <p>Get all countries</p>
+    </div>
+    <div class="api-box">
+        <span class="badge-get">GET</span>
+        <h5>/api/countries/id/{id]</h5>
+        <p>Get country by id</p>
+    </div>
+    <div class="api-box">
+        <span class="badge-get">GET</span>
+        <h5>/api/countries/name/{name}</h5>
+        <p>Get country by name</p>
+    </div>
+    <div class="api-box">
+        <span class="badge-get">GET</span>
+        <h5>/api/countries/ideology/{ideology}</h5>
+        <p>Get all countries by ideology</p>
+    </div>
+</body>
+</html>
