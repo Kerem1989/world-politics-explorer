@@ -1,4 +1,4 @@
-package com.example.worldpoliticsexplorer;
+package com.example.worldpoliticsexplorer.Entity;
 
 
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.example.worldpoliticsexplorer;
+package com.example.worldpoliticsexplorer.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

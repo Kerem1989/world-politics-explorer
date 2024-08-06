@@ -74,722 +74,721 @@ var simplemaps_worldmap_mapdata={
   state_specific: {
     AF: {
       name: "Afghanistan",
-      description: "Liberal" +
-          "'The Islamic Republic of Afghanistan is a landlocked country located within South Asia and Central Asia. It has a population of approximately 32 million, making it the 42nd most populous country in the world. It is bordered by Pakistan in the south and east; Iran in the west; Turkmenistan, Uzbekistan, and Tajikistan in the north; and China in the far northeast. Its territory covers 652,000 square kilometers (252,000 sq mi), making it the 41st largest country in the world.'",
-      color: "default",
+      description: "Islamism / Taliban",
+      color: "#00ccff",
       hover_color: "default",
       url: "default"
     },
     AO: {
       name: "Angola",
-      description: "default",
-      color: "default",
+      description: "Social democracy / People's Movement for the Liberation of Angola ",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     AL: {
       name: "Albania",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Socialist Party of Albania",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     AE: {
       name: "United Arab Emirates",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     AR: {
       name: "Argentina",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Liberty Advances",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     AM: {
       name: "Armenia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Civil Contract",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     AU: {
       name: "Australia",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Australian Labor Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     AT: {
       name: "Austria",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Austrian People's Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     AZ: {
       name: "Azerbaijan",
-      description: "default",
-      color: "default",
+      description: "Conservatism / New Azerbaijan Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     BI: {
       name: "Burundi",
-      description: "default",
-      color: "default",
+      description: "Nationalism / National Council for the Defense of Democracy–Forces",
+      color: "#ff6600",
       hover_color: "default",
       url: "default"
     },
     BE: {
       name: "Belgium",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Multi-party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     BJ: {
       name: "Benin",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Progressive Union for Renewal",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     BF: {
       name: "Burkina Faso",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     BD: {
       name: "Bangladesh",
-      description: "default",
-      color: "default",
+      description: "Socialism / Bangladesh Awami League",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     BG: {
       name: "Bulgaria",
-      description: "default",
-      color: "default",
+      description: "Conservatism / GERB–SDS",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     BH: {
       name: "Bahrain",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     BA: {
       name: "Bosnia and Herzegovina",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Multi-party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     BY: {
       name: "Belarus",
-      description: "default",
-      color: "default",
+      description: "Big tent / Belaya Rus",
+      color: "#808080",
       hover_color: "default",
       url: "default"
     },
     BZ: {
       name: "Belize",
-      description: "default",
-      color: "default",
+      description: "Social democracy / People's United Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     BO: {
       name: "Bolivia",
-      description: "default",
-      color: "default",
+      description: "Progressivism / Movement for Socialism",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     BR: {
       name: "Brazil",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Workers' Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     BN: {
       name: "Brunei Darussalam",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     BT: {
       name: "Bhutan",
-      description: "default",
-      color: "default",
+      description: "Liberalism / People's Democratic Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     BW: {
       name: "Botswana",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Botswana Democratic Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     CF: {
       name: "Central African Republic",
-      description: "default",
-      color: "default",
+      description: "Social democracy / United Hearts Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     CA: {
       name: "Canada",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Liberal Party of Canada",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     CH: {
       name: "Switzerland",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Swiss People's Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     CL: {
       name: "Chile",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Broad Front",
+      color: "#66ff66",
       hover_color: "default",
       url: "default"
     },
     CN: {
       name: "China",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Communist Party of China",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     CI: {
       name: "Côte d'Ivoire",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     CM: {
       name: "Cameroon",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Cameroon People's Democratic Rally",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     CD: {
       name: "Democratic Republic of the Congo",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Union for Democracy and Social Progress",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     CG: {
       name: "Republic of Congo",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Congolese Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     CO: {
       name: "Colombia",
-      description: "default",
-      color: "default",
+      description: "Progressivism / Historic Pact for Colombia",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     CR: {
       name: "Costa Rica",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democratic Progress Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     CU: {
       name: "Cuba",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Communist Party of Cuba",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     CZ: {
       name: "Czech Republic",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Civic Democratic Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     DE: {
       name: "Germany",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democratic Party of Germany",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     DJ: {
       name: "Djibouti",
-      description: "default",
-      color: "default",
+      description: "Social democracy / People's Rally for Progress",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     DK: {
       name: "Denmark",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democrats",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     DO: {
       name: "Dominican Republic",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Modern Revolutionary Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     DZ: {
       name: "Algeria",
-      description: "default",
-      color: "default",
+      description: "Social democracy / National Liberation Front",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     EC: {
       name: "Ecuador",
-      description: "default",
-      color: "default",
+      description: "Conservatism / National Democratic Action",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     EG: {
       name: "Egypt",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Nation's Future Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     ER: {
       name: "Eritrea",
-      description: "default",
-      color: "default",
+      description: "Socialism / People's Front for Democracy and Justice",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     EE: {
       name: "Estonia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Reform Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     ET: {
       name: "Ethiopia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Prosperity Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     FI: {
       name: "Finland",
-      description: "Ideology: Conservatism / Ruling Party: National Coalition Party",
+      description: "Conservatism / National Coalition Party",
       color: "#1900ff",
       hover_color: "default",
     },
     FJ: {
       name: "Fiji",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People's Alliance",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     GA: {
       name: "Gabon",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     GB: {
       name: "United Kingdom",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     GE: {
       name: "Georgia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Democratic Georgia",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     GH: {
       name: "Ghana",
-      description: "default",
-      color: "default",
+      description: "Conservatism / New Patriotic Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     GN: {
       name: "Guinea",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     GM: {
       name: "The Gambia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / National People's Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     GW: {
       name: "Guinea-Bissau",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / African Party for the Independence of Guinea and Cape Verde",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     GQ: {
       name: "Equatorial Guinea",
-      description: "default",
-      color: "default",
+      description: "Big tent / Democratic Party of Equatorial Guinea",
+      color: "#808080",
       hover_color: "default",
       url: "default"
     },
     GR: {
       name: "Greece",
-      description: "default",
-      color: "default",
+      description: "Conservatism / New Democracy",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     GL: {
       name: "Greenland",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Community of the People",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     GT: {
       name: "Guatemala",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Seed Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     GY: {
       name: "Guyana",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / People's Progressive Party",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     HN: {
       name: "Honduras",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Liberty and Refoundation",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     HR: {
       name: "Croatia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Croatian Democratic Union",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     HT: {
       name: "Haiti",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     HU: {
       name: "Hungary",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Fidesz",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     ID: {
       name: "Indonesia",
-      description: "default",
-      color: "default",
+      description: "Progressivism / Indonesian Democratic Party of Struggle",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     IN: {
       name: "India",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Bharatiya Janata Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     IE: {
       name: "Ireland",
-      description: "default",
-      color: "default",
+      description: "Conservatism / The Republican Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     IR: {
       name: "Iran",
-      description: "default",
-      color: "default",
+      description: "Islamism / Principlists",
+      color: "#00ccff",
       hover_color: "default",
       url: "default"
     },
     IQ: {
       name: "Iraq",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     IS: {
       name: "Iceland",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Independence Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     IL: {
       name: "Israel",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Likud",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     IT: {
       name: "Italy",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Brothers of Italy",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     JM: {
       name: "Jamaica",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Jamaica Labour Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     JO: {
       name: "Jordan",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     JP: {
       name: "Japan",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Liberal Democratic Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     KZ: {
       name: "Kazakhstan",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Deposit",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     KE: {
       name: "Kenya",
-      description: "default",
-      color: "default",
+      description: "Liberalism / United Democratic Alliance",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     KG: {
       name: "Kyrgyzstan",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Fatherland Kyrgyzstan",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     KH: {
       name: "Cambodia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Cambodian People's Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     KR: {
       name: "Republic of Korea",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Workers' Party of Korea",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     XK: {
       name: "Kosovo",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Self-determination Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     KW: {
       name: "Kuwait",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     LA: {
       name: "Lao PDR",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Lao People's Revolutionary Party",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     LB: {
       name: "Lebanon",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Free Patriotic Movement",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     LR: {
       name: "Liberia",
-      description: "default",
-      color: "default",
+      description: "Big tent / Coalition for Democratic Change",
+      color: "#808080",
       hover_color: "default",
       url: "default"
     },
     LY: {
       name: "Libya",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "Other",
       hover_color: "default",
       url: "default"
     },
     LK: {
       name: "Sri Lanka",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Sri Lanka Podujana Peramuna",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     LS: {
       name: "Lesotho",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Revolution for Prosperity",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     LT: {
       name: "Lithuania",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Homeland Union",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     LU: {
       name: "Luxembourg",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Christian Social People's Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     LV: {
       name: "Latvia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / New Unity",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     MA: {
       name: "Morocco",
-      description: "default",
-      color: "default",
+      description: "Liberalism / National Rally of Independents",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     MD: {
       name: "Moldova",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Party of Action and Solidarity",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     MG: {
       name: "Madagascar",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Young Malagasies Determined",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     MX: {
       name: "Mexico",
-      description: "default",
-      color: "default",
+      description: "Progressivism / National Regeneration Movement",
+      color: "#66ff66",
       hover_color: "default",
       url: "default"
     },
     MK: {
       name: "Macedonia",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democratic Union",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     ML: {
       name: "Mali",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     MM: {
       name: "Myanmar",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Union Solidarity and Development Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     ME: {
       name: "Montenegro",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Europe Now Movement",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     MN: {
       name: "Mongolia",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Mongolian People's Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     MZ: {
       name: "Mozambique",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / FRELIMO Party",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     MR: {
       name: "Mauritania",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Equity Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
@@ -802,469 +801,469 @@ var simplemaps_worldmap_mapdata={
     },
     MY: {
       name: "Malaysia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Malawi Congress Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     NA: {
       name: "Namibia",
-      description: "default",
-      color: "default",
+      description: "Socialism / SWAPO Party of Namibia",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     NE: {
       name: "Niger",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     NG: {
       name: "Nigeria",
-      description: "default",
-      color: "default",
+      description: "Conservatism / All Progressives Congress",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     NI: {
       name: "Nicaragua",
-      description: "default",
-      color: "default",
+      description: "Socialism / Sandinista National Liberation Front",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     NL: {
       name: "Netherlands",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People's Party for Freedom and Democracy",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     NO: {
       name: "Norway",
-      description: "Ideology: Social democracy / Ruling Party: Labour Party",
-      color: "#ff2600",
+      description: "Social democracy / Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     NP: {
       name: "Nepal",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Nepal Congress",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     NZ: {
       name: "New Zealand",
-      description: "default",
-      color: "default",
+      description: "Conservatism / New Zealand National Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     OM: {
       name: "Oman",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     PK: {
       name: "Pakistan",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Pakistan People's Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     PA: {
       name: "Panama",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Democratic Revolutionary Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     PE: {
       name: "Peru",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Free Peru",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     PH: {
       name: "Philippines",
-      description: "default",
-      color: "default",
+      description: "Nationalism / Bongbong Marcos",
+      color: "#ff6600",
       hover_color: "default",
       url: "default"
     },
     PG: {
       name: "Papua New Guinea",
-      description: "default",
-      color: "default",
+      description: "Nationalism / Papua and New Guinea Union Party",
+      color: "#ff6600",
       hover_color: "default",
       url: "default"
     },
     PL: {
       name: "Poland",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Civic Coalition",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     KP: {
       name: "Dem. Rep. Korea",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People Power Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     PT: {
       name: "Portugal",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Socialist Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     PY: {
       name: "Paraguay",
-      description: "default",
-      color: "default",
+      description: "Nationalism / National Republican Association",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     PS: {
       name: "Palestine",
-      description: "default",
-      color: "default",
+      description: "Socialism / Palestine Liberation Organization",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     QA: {
       name: "Qatar",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     RO: {
       name: "Romania",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democratic Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     RU: {
       name: "Russia",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People's Front",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     RW: {
       name: "Rwanda",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Rwandan Patriotic Front",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     EH: {
       name: "Western Sahara",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Polisario Front",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     SA: {
       name: "Saudi Arabia",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     SD: {
       name: "Sudan",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     SS: {
       name: "South Sudan",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Sudan People's Liberation Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     SN: {
       name: "Senegal",
-      description: "default",
-      color: "default",
+      description: "Nationalism / Liberate the People",
+      color: "#ff6600",
       hover_color: "default",
       url: "default"
     },
     SL: {
       name: "Sierra Leone",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Sierra Leone People's Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     SV: {
       name: "El Salvador",
-      description: "default",
-      color: "default",
+      description: "Conservatism / New Ideas",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     RS: {
       name: "Serbia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Serbian Progressive Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     SR: {
       name: "Suriname",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Progressive Reform Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     SK: {
       name: "Slovakia",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Direction – Social Democracy",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     SI: {
       name: "Slovenia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Freedom Movement",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     SE: {
       name: "Sweden",
-      description: "Ideology: Conservatism" + " / " + "Ruling Party: Moderate Party",
+      description: "Conservatism / Moderate Party",
       color: "#1900ff",
       hover_color: "default",
     },
     SZ: {
       name: "Swaziland",
-      description: "default",
-      color: "default",
+      description: "Monarchy",
+      color: "#ffccff",
       hover_color: "default",
       url: "default"
     },
     SY: {
       name: "Syria",
-      description: "default",
-      color: "default",
+      description: "Socialism / Arab Socialist Ba'ath Party ",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     TD: {
       name: "Chad",
-      description: "default",
-      color: "default",
+      description: "Military junta",
+      color: "#000000",
       hover_color: "default",
       url: "default"
     },
     TG: {
       name: "Togo",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Union for the Republic",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     TH: {
       name: "Thailand",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Pheu Thai Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     TJ: {
       name: "Tajikistan",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     TM: {
       name: "Turkmenistan",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Democratic Party of Turkmenistan",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     TL: {
       name: "Timor-Leste",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Revolutionary Front for an Independent East Timor",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     TN: {
       name: "Tunisia",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     TR: {
       name: "Turkey",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Justice and Development Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     TW: {
       name: "Taiwan",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Democratic Progressive Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     TZ: {
       name: "Tanzania",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Party of the Revolution",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     UG: {
       name: "Uganda",
-      description: "default",
-      color: "default",
+      description: "Conservatism / National Resistance Movement",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     UA: {
       name: "Ukraine",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Servant of the People",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     UY: {
       name: "Uruguay",
-      description: "default",
-      color: "default",
+      description: "Conservatism / National Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     US: {
       name: "United States",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Democratic Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     UZ: {
       name: "Uzbekistan",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Uzbekistan Liberal Democratic Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     VE: {
       name: "Venezuela",
-      description: "default",
-      color: "default",
+      description: "Socialism / United Socialist Party of Venezuela",
+      color: "#ff2600",
       hover_color: "default",
       url: "default"
     },
     VN: {
       name: "Vietnam",
-      description: "default",
-      color: "default",
+      description: "Marxism–Leninism / Communist Party of Vietnam",
+      color: "#ff0000",
       hover_color: "default",
       url: "default"
     },
     VU: {
       name: "Vanuatu",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     YE: {
       name: "Yemen",
-      description: "default",
-      color: "default",
+      description: "Big tent / General People's Congress",
+      color: "#808080",
       hover_color: "default",
       url: "default"
     },
     ZA: {
       name: "South Africa",
-      description: "default",
-      color: "default",
+      description: "Social democracy / African National Congress",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     ZM: {
       name: "Zambia",
-      description: "default",
-      color: "default",
+      description: "Liberalism / United Party for National Development",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     ZW: {
       name: "Zimbabwe",
-      description: "default",
-      color: "default",
+      description: "Nationalism / Zimbabwe African National Union",
+      color: "#ff6600",
       hover_color: "default",
       url: "default"
     },
     SO: {
       name: "Somalia",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     GF: {
       name: "France",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Renaissance",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     FR: {
       name: "France",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Renaissance",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     ES: {
       name: "Spain",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Spanish Socialist Workers' Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     AW: {
       name: "Aruba",
-      description: "default",
-      color: "default",
+      description: "Social democracy / People's Electoral Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     AI: {
       name: "Anguilla",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Anguilla Progressive Movement",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     AD: {
       name: "Andorra",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Democrats for Andorra",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
@@ -1277,295 +1276,295 @@ var simplemaps_worldmap_mapdata={
     },
     BS: {
       name: "Bahamas",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Antigua and Barbuda Labour Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     BM: {
       name: "Bermuda",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Progressive Labour Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     BB: {
       name: "Barbados",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Barbados Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     KM: {
       name: "Comoros",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Convention for the Renewal of the Comoros",
+      color: "#00ffcc",
       hover_color: "default",
       url: "default"
     },
     CV: {
       name: "Cape Verde",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Movement for Democracy",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     KY: {
       name: "Cayman Islands",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Independents",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     DM: {
       name: "Dominica",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Dominica Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     FK: {
       name: "Falkland Islands",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Falkland Islands Democratic Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     FO: {
       name: "Faeroe Islands",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Social Democratic Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     GD: {
       name: "Grenada",
-      description: "default",
-      color: "default",
+      description: "Social democracy / National Democratic Congress",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     HK: {
       name: "Hong Kong",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     KN: {
       name: "Saint Kitts and Nevis",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Saint Kitts and Nevis Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     LC: {
       name: "Saint Lucia",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Saint Lucia Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     LI: {
       name: "Liechtenstein",
-      description: "default",
-      color: "default",
+      description: "Conservatism / Patriotic Union",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     MF: {
       name: "Saint Martin (French)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     MV: {
       name: "Maldives",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People's National Congress",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     MT: {
       name: "Malta",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Labour Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     MS: {
       name: "Montserrat",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     MU: {
       name: "Mauritius",
-      description: "default",
-      color: "default",
+      description: "Democratic socialism / Militant Socialist Movement",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     NC: {
       name: "New Caledonia",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     NR: {
       name: "Nauru",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Nauru First",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     PN: {
       name: "Pitcairn Islands",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     PR: {
       name: "Puerto Rico",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Popular Democratic Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     PF: {
       name: "French Polynesia",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     SG: {
       name: "Singapore",
-      description: "default",
-      color: "default",
+      description: "Conservatism / People's Action Party",
+      color: "#1900ff",
       hover_color: "default",
       url: "default"
     },
     SB: {
       name: "Solomon Islands",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     ST: {
       name: "São Tomé and Principe",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     SX: {
       name: "Saint Martin (Dutch)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     SC: {
       name: "Seychelles",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Seychelles National Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     TC: {
       name: "Turks and Caicos Islands",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Progressive National Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     TO: {
       name: "Tonga",
-      description: "default",
-      color: "default",
+      description: "Big tent / Democratic Party of the Friendly Islands",
+      color: "#808080",
       hover_color: "default",
       url: "default"
     },
     TT: {
       name: "Trinidad and Tobago",
-      description: "default",
-      color: "default",
+      description: "Liberalism / People's National Movement",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     VC: {
       name: "Saint Vincent and the Grenadines",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     VG: {
       name: "British Virgin Islands",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     VI: {
       name: "United States Virgin Islands",
-      description: "default",
-      color: "default",
+      description: "Liberalism / Democratic Party",
+      color: "#009dff",
       hover_color: "default",
       url: "default"
     },
     CY: {
       name: "Cyprus",
-      description: "default",
-      color: "default",
+      description: "Social democracy / Democratic Party",
+      color: "#ffcc00",
       hover_color: "default",
       url: "default"
     },
     RE: {
       name: "Reunion (France)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     YT: {
       name: "Mayotte (France)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     MQ: {
       name: "Martinique (France)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     GP: {
       name: "Guadeloupe (France)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     CW: {
       name: "Curaco (Netherlands)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     },
     IC: {
       name: "Canary Islands (Spain)",
-      description: "default",
-      color: "default",
+      description: "Other",
+      color: "#d3d3d3",
       hover_color: "default",
       url: "default"
     }

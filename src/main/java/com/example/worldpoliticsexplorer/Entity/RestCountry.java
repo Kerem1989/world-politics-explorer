@@ -1,4 +1,4 @@
-package com.example.worldpoliticsexplorer;
+package com.example.worldpoliticsexplorer.Entity;
 
 import java.util.Map;
 
@@ -36,7 +36,6 @@ public class RestCountry {
         private String official;
         private Map<String, NativeName> nativeName;
 
-        // Getters and setters
         public String getCommon() {
             return common;
         }
@@ -64,8 +63,6 @@ public class RestCountry {
         public static class NativeName {
             private String official;
             private String common;
-
-            // Getters and setters
             public String getOfficial() {
                 return official;
             }

@@ -1,10 +1,15 @@
-package com.example.worldpoliticsexplorer;
+package com.example.worldpoliticsexplorer.Service;
 
+import com.example.worldpoliticsexplorer.Entity.Country;
+import com.example.worldpoliticsexplorer.Repository.CountryRepository;
+import com.example.worldpoliticsexplorer.Entity.RestCountry;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -39,5 +44,17 @@ public class CountryService {
 
     public List<Country> getAllCountries() {
         return countryRepository.findAll();
+    }
+
+    public Optional<Country> getCountryById(int id) {
+        return countryRepository.findById(id);
+    }
+
+    public Optional<Country> getCountryByName(String name) {
+        return countryRepository.findCountryByName(name);
+    }
+
+    public List <Country> getCountriesByIdeology(String ideology){
+        return countryRepository.findAllByIdeology(ideology);
     }
 }

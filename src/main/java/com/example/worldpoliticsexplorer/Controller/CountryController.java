@@ -1,5 +1,7 @@
-package com.example.worldpoliticsexplorer;
+package com.example.worldpoliticsexplorer.Controller;
 
+import com.example.worldpoliticsexplorer.Entity.Country;
+import com.example.worldpoliticsexplorer.Service.CountryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +15,7 @@ public class CountryController {
     @Autowired
     CountryService countryService;
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home() {
         return "index";
     }
@@ -23,6 +25,6 @@ public class CountryController {
     public String getAllCountries(Model model) {
         List<Country> countries = countryService.getAllCountries();
         model.addAttribute("countries", countries);
-        return "countrylist";
+        return "api";
     }
 }
