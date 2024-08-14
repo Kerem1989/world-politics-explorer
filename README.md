@@ -64,7 +64,7 @@
 - **GET /api/countries:** Retrieve all countries.
 - **GET /api/countries/id/{id}:**   Retrieve country information by its ID.
 - **GET /api/countries/name/{name}:** Retrieve country information by its name.
-- **GET /api/countries/ideology/{ideology}:** Retrieve all countries associated with a specific ideology
+- **GET /api/countries/ideology/{ideology}:** Retrieve all countries associated with a specific ideology.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,15 +73,15 @@
 
 To run this project, you need to have the following software installed:
 
-* Java Development Kit (JDK) 11 or higher
-* Maven for managing dependencies and building the project
-* MySQL for database management
+* Java Development Kit (JDK) 11 or higher.
+* Maven for managing dependencies and building the project.
+* MySQL for database management.
 
 #### Installation
-* Clone the repository
-* Build the project using Maven
-* Run the tests to ensure everything is set up correctly
-* To start the application, run the following command: java -jar target/world-politics-explorer-1.0-SNAPSHOT.jar
+* Clone the repository.
+* Build the project using Maven.
+* Run the tests to ensure everything is set up correctly.
+* To start the application, run the following command: java -jar target/world-politics-explorer-1.0-SNAPSHOT.jar.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
