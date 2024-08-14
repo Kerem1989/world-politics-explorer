@@ -77,7 +77,7 @@ To run this project, you need to have the following software installed:
 * Maven for managing dependencies and building the project
 * MySQL for database management
 
-## Installation
+#### Installation
 * Clone the repository
 * Build the project using Maven
 * Run the tests to ensure everything is set up correctly
@@ -95,12 +95,6 @@ Distributed under the MIT License.
 Kerem Bjälvenäs Tazedal - kerem.tazedal.89@gmail.com
 
 Project Link: [https://github.com/Kerem1989/world-politics-explorer](https://github.com/Kerem1989/JavaEE-Webshop)
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-Special thanks to Dmitry Khalizov for his valuable contributions and collaboration throughout the development of this project.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
