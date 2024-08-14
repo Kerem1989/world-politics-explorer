@@ -1,86 +1,86 @@
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About
-5.  Map
-6.  Graphs
-7.  Timeline
-8.  Contact
-
 /*-------------------------------------
-		1.General css (Reset code)
+        1. General css (Reset code)
 --------------------------------------*/
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-*{
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    box-sizing:border-box;
-}
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    font-size:16px;
+    font-size: 16px;
     color: #676a81;
     background: #fff;
-    max-width:1920px;
-    margin:0 auto;
-    overflow-x:hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
-a,a:hover,a:active,a:focus {
-    display:inline-block;
-    text-decoration:none;
+a, a:hover, a:active, a:focus {
+    display: inline-block;
+    text-decoration: none;
     color: #6a708e;
-    font-size:16px;
-    padding:0;
+    font-size: 16px;
+    padding: 0;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    color:#43485c;
+    color: #43485c;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
 }
+
 p {
     margin: 0;
-    line-height:1.8;
-    color:#43485c;
-    font-size:14px;
+    line-height: 1.8;
+    color: #43485c;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
-img{border:none;max-width:100%; height:auto;}
-ul{
+
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
     padding: 0;
     margin: 0 auto;
     list-style: none;
 }
+
 ul li {
     list-style: none;
-
 }
-select,input,textarea,button{box-shadow:none;outline:0!important;}
-button {background: transparent;border: 0;}
 
-html,body{
+select, input, textarea, button {
+    box-shadow: none;
+    outline: 0 !important;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+html, body {
     height: 100%;
     position: relative;
 }
+
 [placeholder]:focus::-webkit-input-placeholder {
-    -webkit-transition: opacity 0.3s 0.3s ease;
-    -moz-transition: opacity 0.3s 0.3s ease;
-    -ms-transition: opacity 0.3s 0.3s ease;
-    -o-transition: opacity 0.3s 0.3s ease;
-    transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s ease;
     opacity: 0;
 }
 
-.fix{position: relative;clear: both;}
+.fix {
+    position: relative;
+    clear: both;
+}
 
 /*-------------------------------------
         2. Header
@@ -88,9 +88,9 @@ html,body{
 .top-area {
     position: relative;
     z-index: 9999;
-    border-bottom: 1px solid #ddd; /* Add thin line to separate section */
+    border-bottom: 1px solid #ddd;
 }
-@media (min-width: 1024px){}
+
 nav.navbar.bootsnav.no-background {
     background-color: #fff;
     border: none;
@@ -99,11 +99,11 @@ nav.navbar.bootsnav.no-background {
 nav.navbar.bootsnav {
     background-color: #fff;
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
 }
 
 /*.navbar-brand*/
-.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
+.navbar-header a.navbar-brand, .navbar-header a.navbar-brand:hover, .navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #1900ff;
     font-size: 20px;
@@ -111,49 +111,54 @@ nav.navbar.bootsnav {
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
-/*.navbar-brand*/
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
-    text-transform:uppercase;
-    -webkit-transition: 0.3s linear;
-    -moz-transition: 0.3s linear;
-    -ms-transition: 0.3s linear;
-    -o-transition: 0.3s linear;
+    text-transform: uppercase;
     transition: 0.3s linear;
+    padding: 35px 20px;
 }
-nav.navbar.bootsnav ul.nav > li > a {padding: 35px 20px;}
-nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #1900ff;}
+
+nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.nav > li > a:focus, nav.navbar.bootsnav ul.nav > li.active > a {
+    color: #1900ff;
+}
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
     content: "";
 }
+
 nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 8px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #1900ff;}
-/*.nav li*/
 
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {
+    color: #6a708e;
+}
 
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover, .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus, .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active > a {
+    color: #1900ff;
+}
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design {
+    overflow-y: scroll;
+    height: 350px;
+}
+
 .menu-ui-design::-webkit-scrollbar {
-    width:5px;
+    width: 5px;
 }
+
 .menu-ui-design::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 8px #000;
+    box-shadow: inset 0 0 8px #000;
 }
+
 .menu-ui-design::-webkit-scrollbar-thumb {
     background-color: #1900ff;
 }
-/*.menu-ui-design*/
-
-
 
 /*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
@@ -163,33 +168,70 @@ nav.navbar.bootsnav .navbar-toggle {
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
-/*.navbar-toggle */
 
+nav.navbar.bootsnav .navbar-toggle i {
+    color: #1900ff;
+}
+
+/* Mobilanpassning */
+@media (max-width: 768px) {
+    /* Justera body */
+    body {
+        font-size: 14px;
+    }
+
+    /* Header - Justeringar för mobil */
+    .navbar-header a.navbar-brand {
+        font-size: 18px;
+        padding: 20px 0px 30px;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
+
+    .menu-ui-design {
+        height: 250px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 14px;
+    }
+
+    .navbar-toggle {
+        padding: 8px;
+    }
+}
 
 
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
-.welcome-hero{
+.welcome-hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
-    background-size:cover;
+    position: relative;
+    background: url(../images/about/welcome-banner.jpg) no-repeat;
+    background-size: cover;
     background-position: center;
-    height:890px;
-    border-bottom: 1px solid #ddd; /* Add thin line to separate section */
+    height: 890px;
+    border-bottom: 1px solid #ddd;
 }
-.welcome-hero:before{
-    position:absolute;
+
+.welcome-hero:before {
+    position: absolute;
     content: " ";
-    top:0;
-    left:0;
-    background:rgba(31,44,108,.65);
-    width:100%;
-    height:100%;
+    top: 0;
+    left: 0;
+    background: rgba(31, 44, 108, .65);
+    width: 100%;
+    height: 100%;
 }
 
 /*.header-text-area*/
@@ -200,7 +242,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #1900ff;}
+
+.header-text h2 span {
+    color: #1900ff;
+}
+
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -209,6 +255,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
+
 .header-text a {
     width: 200px;
     height: 60px;
@@ -217,92 +264,119 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     text-transform: capitalize;
     color: #fff;
     background: #1900ff;
-    border:1px solid #1900ff;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-    -webkit-transition: 0.3s linear;
-    -moz-transition: 0.3s linear;
-    -ms-transition: 0.3s linear;
-    -o-transition: 0.3s linear;
+    border: 1px solid #1900ff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background: #1900ff;border: 1px solid #1900ff;}
-/*.header-text-area*/
+
+.header-text a:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+    background: #1900ff;
+    border: 1px solid #1900ff;
+}
+
+/* Mobilanpassning */
+@media (max-width: 768px) {
+    .welcome-hero {
+        height: 500px;
+        background-position: top;
+    }
+
+    .header-text h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .header-text p {
+        font-size: 16px;
+        margin: 20px 0 40px;
+    }
+
+    .header-text a {
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+}
 
 /*-------------------------------------
-        4.  About
+    4.  About
 --------------------------------------*/
 .about {
-    padding: 50px 20px; /* Padding runt hela sektionen */
-    background: #f9fbfd; /* Bakgrundsfärg som matchar din design */
-    border: none; /* Ingen kant på sektionen */
-    margin-bottom: 20px; /* Avstånd till nästa sektion */
-    border-bottom: 1px ridge#ddd; /* Lägg till tunn linje längst ner för att separera sektionen */
+    padding: 50px 20px;
+    background: #f9fbfd;
+    margin-bottom: 20px;
+    border-bottom: 1px ridge #ddd;
 }
 
 .about-content {
-    display: flex; /* Flexbox för horisontell layout */
-    align-items: center; /* Vertikal centrering */
+    display: flex;
+    align-items: center;
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto; /* Centrera innehållet */
+    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    background: #fff; /* Vit bakgrund för innehållet */
-    border: none; /* Ingen kant på innehållet */
-    box-shadow: none; /* Ingen extra skugga */
+    background: #fff;
 }
 
-.about-text {
-    flex: 2; /* Ge mer utrymme till textdelen */
-    padding-right: 20px;
-    max-width: 70%; /* Justera max-bredd för texten */
-    box-sizing: border-box; /* Inkludera padding i totalbredden */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
 
 .about-text h2 {
-    font-size: 2.5em; /* Större fontstorlek */
+    font-size: 2em;
     margin-bottom: 20px;
-    color: #000; /* Mörkare textfärg */
+    color: #000;
 }
 
 .about-text p {
-    font-size: 1.1em; /* Större fontstorlek */
-    line-height: 1.8; /* Justera radavstånd */
-    color: #666; /* Mjukare textfärg */
-}
-
-.about-img {
-    flex: 1; /* Mindre utrymme till bilden */
-    text-align: right;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
 }
 
 .about-img img {
-    max-width: 100%; /* Anpassa bilden efter utrymmet */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1); /* Lätt skugga för bilden */
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
 }
-
 /*-------------------------------------
-        5.  Map
+        5. Map
 --------------------------------------*/
-/* Sektion som innehåller kartan och diagrammet */
+
 .maps {
     padding: 60px 20px;
-    background: #fcfcfc; /* Mycket ljusgrå bakgrundsfärg */
+    background: #fcfcfc;
     margin: 40px 0;
 }
 
-/* Innehåll för kartsektionen */
+
 .map-content {
     display: flex;
     flex-direction: row;
-    align-items: stretch; /* Justera innehållet till samma höjd */
+    align-items: stretch;
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
 }
 
-/* Kartfigur */
+
 .map-figure {
     flex: 2;
     display: flex;
@@ -310,17 +384,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     align-items: center;
 }
 
-/* Kartans stil */
+
 .map-figure #map {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: none; /* Ta bort skuggan */
-    object-fit: cover; /* Behåll proportioner av kartan */
+    box-shadow: none;
+    object-fit: cover;
     max-height: 600px;
 }
 
-/* Information om kartan */
 .map-info {
     flex: 1;
     display: flex;
@@ -345,102 +418,128 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     margin-bottom: 15px;
 }
 
-/* Legendstil */
+
 .map-legend {
     background: #fff;
     border-radius: 10px;
-    box-shadow: none; /* Ta bort skuggan */
+    box-shadow: none;
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrera legenden vertikalt */
-    height: 100%; /* Ta upp hela höjden av map-info */
+    justify-content: center;
+    height: 100%;
 }
 
 .legend {
     display: grid;
     grid-template-columns: repeat(2, max-content);
-    gap: 10px 20px; /* Justerat gap för mindre storlek */
+    gap: 10px 20px;
 }
 
 .legend-item {
     display: flex;
     align-items: center;
-    border: none; /* Ta bort eventuell kantlinje */
-    box-shadow: none; /* Ta bort eventuell boxskugga */
+    border: none;
+    box-shadow: none;
 }
 
 .legend-color {
-    width: 15px; /* Minska bredden */
-    height: 15px; /* Minska höjden */
+    width: 15px;
+    height: 15px;
     border-radius: 3px;
-    margin-right: 8px; /* Justera marginalen */
+    margin-right: 8px;
 }
 
 .legend-text {
-    font-size: 0.9em; /* Minska storleken på texten */
+    font-size: 0.9em;
     color: #333;
 }
 
-/* Anpassad stil för grafsektionen */
+
 .chart-section {
-    margin-top: 20px; /* Justera för att flytta upp sektionen närmare kartan utan att påverka andra sektioner för mycket */
-    margin-bottom: 40px; /* Behåll nedre marginalen för att skapa avstånd under sektionen */
-    padding: 50px 0 80px; /* Behåll padding för att säkerställa tillräckligt med utrymme inuti sektionen */
-    background: #f0f0f0; /* Mycket ljusgrå bakgrundsfärg som matchar kartsektionen */
+    margin-top: 20px;
+    margin-bottom: 40px; : 50px 0 80px;
+    background: #f0f0f0;
 }
 
-/* Anpassad stil för grafsektionen */
-.chart-section {
-    margin-top: 20px; /* Justera för att flytta upp sektionen närmare kartan utan att påverka andra sektioner för mycket */
-    margin-bottom: 40px; /* Behåll nedre marginalen för att skapa avstånd under sektionen */
-    padding: 50px 0 80px; /* Behåll padding för att säkerställa tillräckligt med utrymme inuti sektionen */
-    background: #f0f0f0; /* Mycket ljusgrå bakgrundsfärg som matchar kartsektionen */
-}
 
-/* Textsektion i grafsektionen */
 .chart-text {
-    flex: 1; /* Flexibelt utrymme för texten */
-    padding-right: 20px; /* Padding till höger för att skapa utrymme mellan text och diagram */
-    margin-bottom: 20px; /* Avstånd mellan text och diagrammet */
+    flex: 1;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .chart-text h4.section-heading {
-    font-size: 24px; /* Storlek på rubriken */
+    font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 20px; /* Lägg till utrymme under rubriken för att skapa avstånd till texten */
-    border-bottom: none; /* Ta bort linjen under rubriken */
+    margin-bottom: 20px;
+    border-bottom: none;
 }
 
-/* Justering för text i grafsektionen */
 .chart-text p.graph-text {
-    font-size: 0.9em; /* Textstorlek */
-    color: #000000; /* Textfärg */
-    margin-bottom: 15px; /* Avstånd mellan stycken */
+    font-size: 0.9em;
+    color: #000000;
+    margin-bottom: 15px;
 }
 
-/* Diagramsektion i grafsektionen */
 .chart-figure {
-    flex: 1; /* Flexibelt utrymme för diagrammet */
+    flex: 1;
     display: flex;
-    justify-content: center; /* Centrera diagrammet horisontellt */
-    align-items: center; /* Centrera diagrammet vertikalt */
+    justify-content: center;
+    align-items: center;
 }
 
-/* Ram runt diagrammet */
+
 .chart-figure #chart {
-    width: 100%; /* Diagrammet fyller hela flex-boxen */
-    height: auto; /* Behåll proportioner */
-    border-radius: 10px; /* Rundade hörn på ramen */
-    padding: 20px; /* Padding för att ge utrymme mellan diagrammet och ramen */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-/*-------------------------------------
-        6.  Graphs
---------------------------------------*/
-.graph {
+@media (max-width: 768px) {
+    .map-content {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .map-text h2 {
+        font-size: 1.5em;
+    }
+
+    .map-text p {
+        font-size: 0.8em;
+    }
+
+    .chart-section {
+        padding: 30px 0 50px;
+    }
+
+    .chart-text h4.section-heading {
+        font-size: 20px;
+    }
+
+    .chart-text p.graph-text {
+        font-size: 0.8em;
+    }
+
+    .legend {
+        grid-template-columns: 1fr;
+        gap: 10px 0;
+    }
+
+    .legend-color {
+        width: 12px;
+        height: 12px;
+    }
+}
+/*-------------------------------------
+        6. Graphs
+--------------------------------------*/
+
+.graph {
+    
 }
 
 .graph-content {
@@ -457,10 +556,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     text-transform: uppercase;
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
+    text-align: center;
 }
 
 .single-progress-txt {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .single-progress-txt h3 {
@@ -469,6 +570,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     position: relative;
     top: 6px;
     left: 20px;
+    margin-bottom: 10px;
 }
 
 .barWrapper {
@@ -490,10 +592,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 .progress-bar {
     background: #1900ff;
     border-radius: 3px;
-    -webkit-transition: width 1.5s ease-in-out;
-    -ms-transition: width 1.5s ease-in-out;
-    -moz-transition: width 1.5s ease-in-out;
-    -o-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
 }
 
@@ -521,9 +619,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 }
 
 .graph-text p {
-    font-size: 0.9em; /* Minska storlek på text */
-    color: #000000; /* Färg på text */
-    margin-bottom: 15px; /* Avstånd mellan stycken */
+    font-size: 0.9em;
+    color: #000000;
+    margin-bottom: 15px;
 }
 
 .centered-heading {
@@ -537,6 +635,38 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
 .chart-section {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .graph-content {
+        padding: 30px 0 50px;
+    }
+
+    .section-heading h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .single-progress-txt {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .single-progress-txt h3 {
+        width: 100%;
+        left: 0;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    .graph-text p {
+        font-size: 0.8em;
+    }
 }
 
 /*-------------------------------------
@@ -838,9 +968,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #1900ff;}
     background: #1900ff;
 	border:1px solid #1900ff;
 	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 	z-index: 2;
